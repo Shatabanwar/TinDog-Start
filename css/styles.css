@@ -3,7 +3,13 @@
   color: white;
 }
 
-h1 {  font-family: 'Montserrat-Black' sans-serif;  font-size: 3rem;  line-height: 1.5;  font-weight: 900;}
+#features{
+ text-align: center;
+ margin: 10% 5%;
+
+}
+
+h1 {  font-family: 'Montserrat-Black' sans-serif;  font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;}
 body{
   font-family: 'Montserrat' sans-serif;
   font-weight: 600;
@@ -38,4 +44,72 @@ body{
 
 .download-button{
   margin: 5% 3% 5% 0;
+}
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* features section */
+
+.icon:hover{
+  color:#ff4c68;
+}
+.icon{
+  color: #ef8172;
+  font-size: 3.5rem;
+  margin-bottom: 5%;
+}
+
+
+.heading{
+  font-family: 'Montserrat-Bold' sans-serif;
+  font-size: 1.5rem;
+font-weight: 900;
+}
+.subtitle{
+  color: #8f8f8f;
+  width: 50%;
+  margin: auto;
+
+}
+
+/* testimonial-section */
+
+#testimonials{
+
+  background-color: #ef8172;
+  text-align: center;
+
+}
+
+.test-heading{
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 3rem;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* press section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
 }
